@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Programers Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Programmers - Tell me your Story</h1>
+    <p id="description">We love to know about which technology and tools software engineers are using world wide! Each and every Developers opinions are very precious to us!</p>
+
+    <div id="main">
+      <form id="survey-form">
+        <div id="input-fields">
+          <label id="name-label"><b>Name:</b></label>
+          <input id="name" type="name" name="name" class="form" required placeholder="Full Name">
+          <br>
+          <label id="email-label"><b>Email:<b></label>
+          <input id="email" type="email" name="email" class="form" required placeholder="example@gmail.com">
+          <br>
+          <label id="number-label"><b>Age:<b></label>
+          <input id="number" type="number" name="number" class="form"
+          min="5" max="99" placeholder="12+">
+          <br>
+        </div>
+
+        <div id="dropdown-div"><br>
+          <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
+          <select id="dropdown" name="code-lang" class="form">
+            <option value="C">C (Progarmming Language)</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+            <option value="PHP">PHP</option>
+            <option value="Java Script">Java Script</option>
+            <option value="GO">Go (Programming Language)</option>
+            <option value="Rust">Rust</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+          </select>
+        </div>
+
+        <div id="button-are">
+          <br>
+          <label id="job-label"><b>Employement Status:<b></label><br>
+          <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time job holder(Employed)<br>
+          <input type="radio" class="radio-inline" name="gender"
+value="freelancer">Part-time job holder(Freelancer)<br>
+          <input type="radio" class="radio-inline" name="gender"
+value="Applier">Looking for a job(Applier)<br>
+          <input type="radio" class="radio-inline" name="gender"
+value="Unemployed">I am a student(Unemployed)<br>
+          <br>
+        </div>
+
+        <div id="button-are">
+          <label id="os-label"><b>Operating system experience: </b></label><br>
+          <input type="checkbox" name="os1" value="windows" checked> I am experienced with Windows-OS<br>
+          <input type="checkbox" name="os2" value="linux"> I am experienced with Linux-OS<br>
+          <input type="checkbox" name="0s3" value="mac"> I am experienced with Mac-OS<br>
+        </div>
+
+         <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Programming language you wanna be expert: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br>
+                <option value="C">C (Programming Language)</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+
+         <div id="button-area"><br><br>
+            <label id="os-label"><b>Latest technology experience:</b></label><br>
+            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
+            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
+            <input type="checkbox" name="tech3" value="git"> Github<br>
+            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
+          </div>
+
+           <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+      </form>
+    </div>
+
+  </body>
+</html>
